@@ -25,7 +25,7 @@ const TopicPage = () => {
   }, [topicName]);
 
   return (
-    <div className="bg-[#0f179a] text-white min-h-screen px-4 md:px-6 py-8 md:py-12 font-sans">
+    <div className="bg-[#0f172a] text-white min-h-screen px-4 md:px-6 py-8 md:py-12 font-sans">
       <div className="max-w-4xl mx-auto">
         <div className="sticky top-4 z-10">
           <Link
