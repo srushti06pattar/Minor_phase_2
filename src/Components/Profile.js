@@ -29,7 +29,7 @@ const lineData = [
   { name: 'Week 4', score: 90 },
 ];
 
-const ProfileDashboard = () => {
+const Profile = () => {
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900 p-6">
       <div className="max-w-6xl mx-auto bg-white shadow-lg rounded-lg p-8">
@@ -146,4 +146,4 @@ const ProfileDashboard = () => {
   );
 };
 
-export default ProfileDashboard;
+export default Profile;

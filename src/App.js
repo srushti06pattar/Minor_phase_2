@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
 import Profile from "./Components/Profile";
 import Roadmaps from "./Components/Roadmaps";
+import './index.css';
+
 
 function App() {
   return (

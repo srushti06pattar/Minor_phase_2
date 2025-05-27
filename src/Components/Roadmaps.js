@@ -32,7 +32,7 @@ const TopicPage = () => {
   const [markdownContent, setMarkdownContent] = useState('');
 
   useEffect(() => {
-    const filename = `${name.toLowerCase().replace(/ /g, '-').replace(/[^a-z0-9\-]/g, '')}.md`;
+    const filename = `${name.toLowerCase().replace(/ /g, '-').replace(/[^a-z0-9-]/g, '')}.md`;
     fetch(`/${filename}`)
       .then((res) => res.text())
       .then((text) => setMarkdownContent(text))
@@ -141,7 +141,7 @@ const Roadmap = () => {
     >
       <svg className="absolute w-full h-full pointer-events-none z-0">
         <defs>
-          <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+          <marker id="arrow" markerWidth="9" markerHeight="5" refX="5" refY="5" orient="auto">
             <path d="M0,0 L0,10 L10,5 z" fill="white" />
           </marker>
         </defs>
